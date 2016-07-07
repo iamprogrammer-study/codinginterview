@@ -43,8 +43,8 @@
 	$ git remote -v
     origin https://github.com/자신의_아이디/자신의_포크.git (fetch)
     origin https://github.com/자신의_아이디/자신의_포크.git (fetch)
-    upstream git@github.com:iamprogrammer-study/codinginterview.git (fetch)
-    upstream git@github.com:iamprogrammer-study/codinginterview.git (push)
+    upstream https://github.com/iamprogrammer-study/codinginterview.git (fetch)
+    upstream https://github.com/iamprogrammer-study/codinginterview.git (push)
     ```
 
 2. upstream 리포지토리에 올라온 브랜치와 각각의 커밋들을 `fetch` 로 받아옵니다. `master`에 올라온 커밋은 `upstream/master` 이라는 로컬 브랜치에 저장됩니다 ([출처](https://help.github.com/articles/syncing-a-fork/)):
@@ -61,7 +61,7 @@
 
 3. 자신의 포크에서 `master` 브랜치를 체크아웃 합니다:
 
-	```
+    ```
     $ git checkout master
     Switched to branch 'master'
     ```
