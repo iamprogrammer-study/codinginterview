@@ -3,6 +3,9 @@
 #include <iostream>
 #include <unordered_map>
 #include <map>
+#include <random>
+#include <cassert>
+#include <climits>
 
 class Solution_nlogn{
 public:
@@ -40,17 +43,35 @@ public:
   }  
 };
 
+class Solution_n_xor
+{
+public:
+  int singleNumber(std::vector<int>& nums) {
+    int result = 0;
+    for(auto num : nums)
+    {
+      result ^= num;
+    }
+    return result;
+  }
+};
+
 int main(void)
 {
   std::vector<int> nums;
-  for(int i = 0; i < 5000000; ++i)
+  for(int i = -1000000; i < 1000000; ++i)
   {
-    nums.push_back((i + 1)%9);
+    nums.push_back(i+1);
+    nums.push_back(i+1);
   }
+  nums.push_back(INT_MAX);
 
-  nums.push_back(9);
-  
+  std::random_device rd;
+  std::mt19937 g(rd());
+  std::shuffle(nums.begin(), nums.end(), g);
+
   Solution_n s;
-  std::cout<<s.singleNumber(nums)<<"\n";
+  assert(s.singleNumber(nums) == INT_MAX);
+  std::cout<<"passed\n";
   return 0;
 }
