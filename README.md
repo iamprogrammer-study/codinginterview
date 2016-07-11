@@ -1,5 +1,9 @@
 # 나프다 코딩인터뷰 스터디
 
+## Disclaimer
+
+이 [그룹](https://github.com/iamprogrammer-study/)과 [저장소](https://github.com/iamprogrammer-study/codinginterview)는 [나프다](http://iamprogrammer.io)의 실제 운영진과는 관련이 없으며 슬랙 채널 내에서 파생된 별도의 그룹입니다.
+
 ## 목차
 
 1. 사용법
