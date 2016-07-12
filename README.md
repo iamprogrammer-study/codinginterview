@@ -22,6 +22,8 @@
 1. **Single Number**: 정수로 이루어진 배열이 있는데, 단 하나만 빼고 다 두번 나옵니다. 그 하나를 찾아내시오. (출처: [leetcode 136번 문제](https://leetcode.com/problems/single-number/))
 2. **Valid Parentheses**: 주어진 문자열은 소/중/대괄호의 조합입니다. 주어진 문자열이 유효한지 판단하시오. (출처: [leetcode 20번 문제](https://leetcode.com/problems/valid-parentheses/))
 3. **Add Two Numbers**:  2개의 LinkedList의 값들을 위치별로 더해서 하나의 LinkedList를 생성하라. (출처: [leetcode 2번 문제](https://leetcode.com/problems/add-two-numbers/))
+4. **Longest Common Subsequence**: 2개의 주어진 문자열에서 가장 긴 common subsequence를 구하시오. (출처: [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/)
+
 
 ## 도움말
 
