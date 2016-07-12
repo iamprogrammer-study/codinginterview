@@ -46,7 +46,7 @@ public class Ghost_ValidParentheses {
     }
 
     public static void main(String[] args) {
-        List<String> parentheses = Arrays.asList("", "()", "()[]{}", "(]", "([)]");
+        final List<String> parentheses = Arrays.asList("", "()", "()[]{}", "(]", "([)]");
         parentheses.stream()
                    .map(i -> isValid(i))
                    .forEach(i -> System.out.println(i));
