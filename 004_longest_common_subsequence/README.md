@@ -5,7 +5,9 @@
 2개의 주어진 문자열에서 가장 긴 common subsequence를 구하시오.
 
 Input: 'ABCDGH', 'AEDFHR'
+
 Output: 'ADH'
 
 Input: 'AGGTAB', 'GXTXAYB'
+
 Output: 'GTAB'
