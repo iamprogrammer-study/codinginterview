@@ -42,7 +42,10 @@ public class Ghost_ValidParentheses {
                     break;
             }
         }
-        return true;
+        if (stack.isEmpty()) {
+            return true;
+        }
+        return false;
     }
 
     public static void main(String[] args) {
