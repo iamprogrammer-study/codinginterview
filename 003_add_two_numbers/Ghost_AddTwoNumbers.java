@@ -55,9 +55,7 @@ public class Ghost_AddTwoNumbers {
             l2 = l2.next;
         }
         if (carry > 0) {
-            ListNode newListNode = new ListNode(carry);
-            currentListNode.next = newListNode;
-            currentListNode = newListNode;
+            currentListNode.next = new ListNode(carry);
         }
         return solutionListNode;
     }
