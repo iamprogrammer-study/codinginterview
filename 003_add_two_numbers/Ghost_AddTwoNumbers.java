@@ -6,13 +6,13 @@ class ListNode {
 
 public class Ghost_AddTwoNumbers {
 
-    public static ListNode addTwoNumbers(ListNode firstListNode, ListNode secondListNode) {
+    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode solutionListNode = null;
         ListNode currentListNode = null;
         int carry = 0;
         int sum = 0;
-        while (firstListNode != null && secondListNode != null) {
-            sum = carry + firstListNode.val + secondListNode.val;
+        while (l1 != null && l2 != null) {
+            sum = carry + l1.val + l2.val;
             carry = sum / 10;
             ListNode newListNode = new ListNode(sum % 10);
             if (solutionListNode == null) {
@@ -23,11 +23,11 @@ public class Ghost_AddTwoNumbers {
                 currentListNode.next = newListNode;
                 currentListNode = newListNode;
             }
-            firstListNode = firstListNode.next;
-            secondListNode = secondListNode.next;
+            l1 = l1.next;
+            l2 = l2.next;
         }
-        while (firstListNode != null) {
-            sum = carry + firstListNode.val;
+        while (l1 != null) {
+            sum = carry + l1.val;
             carry = sum / 10;
             ListNode newListNode = new ListNode(sum % 10);
             if (solutionListNode == null) {
@@ -38,10 +38,10 @@ public class Ghost_AddTwoNumbers {
                 currentListNode.next = newListNode;
                 currentListNode = newListNode;
             }
-            firstListNode = firstListNode.next;
+            l1 = l1.next;
         }
-        while (secondListNode != null) {
-            sum = carry + secondListNode.val;
+        while (l2 != null) {
+            sum = carry + l2.val;
             carry = sum / 10;
             ListNode newListNode = new ListNode(sum % 10);
             if (solutionListNode == null) {
@@ -52,7 +52,12 @@ public class Ghost_AddTwoNumbers {
                 currentListNode.next = newListNode;
                 currentListNode = newListNode;
             }
-            secondListNode = secondListNode.next;
+            l2 = l2.next;
+        }
+        if (carry > 0) {
+            ListNode newListNode = new ListNode(carry);
+            currentListNode.next = newListNode;
+            currentListNode = newListNode;
         }
         return solutionListNode;
     }
