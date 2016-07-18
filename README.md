@@ -23,7 +23,7 @@
 2. **Valid Parentheses**: 주어진 문자열은 소/중/대괄호의 조합입니다. 주어진 문자열이 유효한지 판단하시오. (출처: [leetcode 20번 문제](https://leetcode.com/problems/valid-parentheses/))
 3. **Add Two Numbers**:  2개의 LinkedList의 값들을 위치별로 더해서 하나의 LinkedList를 생성하라. (출처: [leetcode 2번 문제](https://leetcode.com/problems/add-two-numbers/))
 4. **Longest Common Subsequence**: 2개의 주어진 문자열에서 가장 긴 common subsequence를 구하시오. (출처: [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/)
-
+5. **Minumum Depth of Binary Tree**: 주어진 바이너리 트리의 최소 깊이를 구하라. (출처: [leetcode 111번 문제](https://leetcode.com/problems/minimum-depth-of-binary-tree/))
 
 ## 도움말
 
