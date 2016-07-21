@@ -24,6 +24,7 @@
 3. **Add Two Numbers**:  2개의 LinkedList의 값들을 위치별로 더해서 하나의 LinkedList를 생성하라. (출처: [leetcode 2번 문제](https://leetcode.com/problems/add-two-numbers/))
 4. **Longest Common Subsequence**: 2개의 주어진 문자열에서 가장 긴 common subsequence를 구하시오. (출처: [Longest Common Subsequence](http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/)
 5. **Minumum Depth of Binary Tree**: 주어진 바이너리 트리의 최소 깊이를 구하라. (출처: [leetcode 111번 문제](https://leetcode.com/problems/minimum-depth-of-binary-tree/))
+6. **Two Sum**: 2개의 숫자를 더해서 sum를 만들 수 있는 인덱스를 찾아라. (출처: [leetcode 1번 문제](https://leetcode.com/problems/two-sum/))
 
 ## 도움말
 
