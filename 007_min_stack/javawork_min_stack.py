@@ -5,7 +5,7 @@
 
 	def push(self, x):
 		self.data.append(x)
-		if len(self.mins) == 0 or x < self.getMin():
+		if len(self.mins) == 0 or x <= self.getMin():
 			self.mins.append(x)
 
 	def pop(self):
@@ -33,3 +33,9 @@ print s.getMin()
 s.pop()
 print s.top()
 print s.getMin()
+s.push(-3)
+s.push(-3)
+print s.getMin()
+s.pop()
+print s.getMin()
+
