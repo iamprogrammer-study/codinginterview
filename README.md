@@ -26,6 +26,7 @@
 5. **Minumum Depth of Binary Tree**: 주어진 바이너리 트리의 최소 깊이를 구하라. (출처: [leetcode 111번 문제](https://leetcode.com/problems/minimum-depth-of-binary-tree/))
 6. **Two Sum**: 2개의 숫자를 더해서 sum를 만들 수 있는 인덱스를 찾아라. (출처: [leetcode 1번 문제](https://leetcode.com/problems/two-sum/))
 7. **Min Stack**: 가장 작은 element를 상수시간에 구하는  스택을 구현하라. (출처: [leetcode 155번 문제](https://leetcode.com/problems/min-stack/)
+8. **Next Permutation**: 주어진 순열의 다음 순열 구하라. (출처: [leetcode 31번 문제](https://leetcode.com/problems/next-permutation/)
 
 ## 도움말
 
