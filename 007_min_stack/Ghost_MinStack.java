@@ -3,7 +3,7 @@ public class Ghost_MinStack {
     private java.util.Stack<Integer> numStack = null;
     private java.util.Stack<Integer> minStack = null;
 
-    public MinStack() {
+    public Ghost_MinStack() {
         numStack = new java.util.Stack<Integer>();
         minStack = new java.util.Stack<Integer>();
     }
