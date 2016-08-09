@@ -3,7 +3,7 @@
 #include <vector>
 #include <cassert>
 
-class Solution
+class Solution_N_Square
 {
 public:
   void nextPermutation(std::vector<int> &array)
@@ -34,13 +34,50 @@ public:
   }
 };
 
+//reference solution : https://gist.github.com/Baekjoon/f8d9765ccde7262744b5
+class Solution_N
+{
+private:
+  void make_reverse(std::vector<int> &array, int from, int to)
+  {
+    while (from < to) {
+        std::swap(array[from], array[to]);
+        from += 1; 
+        to -= 1;
+    }
+  }
+
+public:
+  void nextPermutation(std::vector<int> &array)
+  {
+    int idx = array.size() - 1;
+    int last_idx = idx;
+    while (idx > 0 && array[idx - 1] >= array[idx]) {
+        idx -= 1;
+    }
+
+    if (idx <= 0) {
+      make_reverse(array, 0, last_idx);  
+      return; 
+    }
+
+    int r_idx = last_idx;
+    while (array[idx - 1] >= array[r_idx]) {
+        r_idx -= 1;
+    }
+    std::swap( array[idx - 1], array[r_idx]);
+  
+    make_reverse(array, idx, last_idx);  
+  }
+};
+
 void test(std::vector<int> test_set)
 {
   static int seq = 1;
   auto test_set2 = test_set;
   std::next_permutation(test_set2.begin(), test_set2.end());
-  Solution s;
-  s.next_permutation(test_set);
+  Solution_N s;
+  s.nextPermutation(test_set);
 
   for(int i = 0; i < test_set.size(); ++i)
   {

@@ -27,6 +27,10 @@
 6. **Two Sum**: 2개의 숫자를 더해서 sum를 만들 수 있는 인덱스를 찾아라. (출처: [leetcode 1번 문제](https://leetcode.com/problems/two-sum/))
 7. **Min Stack**: 가장 작은 element를 상수시간에 구하는  스택을 구현하라. (출처: [leetcode 155번 문제](https://leetcode.com/problems/min-stack/))
 8. **Next Permutation**: 주어진 순열의 다음 순열 구하라. (출처: [leetcode 31번 문제](https://leetcode.com/problems/next-permutation/))
+9. **Invert Binary Tree**: 이진 트리를 뒤집어라 (출처: [leetcode 226번 문제](https://leetcode.com/problems/invert-binary-tree/))
+10. **Path Sum**: 이진 트리에서 root-leaf에 이르는 경로의 값을 더해서 sum값이 되는 경로가 있는지 판단하라. (출처: [leetcode 112번 문제](https://leetcode.com/problems/path-sum/))
+11. **Sum of Two Integers**: +/- 연산자를 사용하지 않고 두 정수의 합을 구하라. (출처: [leetcode 371번 문제](https://leetcode.com/problems/sum-of-two-integers/))
+
 
 ## 도움말
 
