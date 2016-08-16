@@ -30,6 +30,7 @@
 9. **Invert Binary Tree**: 이진 트리를 뒤집어라 (출처: [leetcode 226번 문제](https://leetcode.com/problems/invert-binary-tree/))
 10. **Path Sum**: 이진 트리에서 root-leaf에 이르는 경로의 값을 더해서 sum값이 되는 경로가 있는지 판단하라. (출처: [leetcode 112번 문제](https://leetcode.com/problems/path-sum/))
 11. **Sum of Two Integers**: +/- 연산자를 사용하지 않고 두 정수의 합을 구하라. (출처: [leetcode 371번 문제](https://leetcode.com/problems/sum-of-two-integers/))
+12. **Divide Two Integers**: *,/,mod 연산자를 사용하지 않고 두 정수의 나눔을 구하라. (출처: [leetcode 29번 문제](https://leetcode.com/problems/divide-two-integers/))
 
 
 ## 도움말
