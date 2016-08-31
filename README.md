@@ -32,6 +32,7 @@
 11. **Sum of Two Integers**: +/- 연산자를 사용하지 않고 두 정수의 합을 구하라. (출처: [leetcode 371번 문제](https://leetcode.com/problems/sum-of-two-integers/))
 12. **Divide Two Integers**: *,/,mod 연산자를 사용하지 않고 두 정수의 나눔을 구하라. (출처: [leetcode 29번 문제](https://leetcode.com/problems/divide-two-integers/))
 13. **Spiral Matrix**: m x n 행렬이 주어졌을때 나선형 순서로 모든 앨리먼트를 반환해라. (출처: [leetcode 54번 문제](https://leetcode.com/problems/spiral-matrix/))
+14. **Permutations**: 주어진 숫자로 가능한 순열을 모두 리턴하라. (출처: [leetcode 46번 문제](https://leetcode.com/problems/permutations/))
 
 ## 도움말
 
